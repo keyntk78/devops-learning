@@ -7,7 +7,7 @@
 | Khởi động            | Đang học     | Khung wiki đã tạo |
 | Nền tảng DevOps      | Đang học     | Đã thêm DevOps là gì, tư duy triển khai và framework triển khai mọi dự án |
 | Linux và Shell       | Đang học     | Đã thêm WSL, hệ thống file, lệnh cơ bản và quyền truy cập |
-| Networking           | Chưa bắt đầu |                   |
+| Networking           | Đang học     | Đã hoàn thiện bộ bài networking cơ bản và lab tổng hợp |
 | Git Collaboration    | Chưa bắt đầu |                   |
 | Containers           | Chưa bắt đầu |                   |
 | CI/CD                | Chưa bắt đầu |                   |
@@ -17,7 +17,7 @@
 | Observability        | Chưa bắt đầu |                   |
 | Security             | Chưa bắt đầu |                   |
 | SRE và Operations    | Chưa bắt đầu |                   |
-| Projects             | Chưa bắt đầu |                   |
+| Projects             | Đang học     | Đã thêm 2 lab deploy Next.js và NestJS không Docker |
 
 ## Nhật ký học
 
@@ -30,13 +30,16 @@
 | 2026-07-13 | Hệ thống file trong Linux | Tách thành bài riêng về cây thư mục, đường dẫn tuyệt đối/tương đối và WSL mount | Làm lab khám phá `/`, `/etc`, `/var/log`, `~` |
 | 2026-07-13 | Các lệnh cơ bản trong Linux | Tách thành bài riêng có công dụng từng lệnh, trường hợp dùng, ví dụ, output mẫu và giải thích | Thực hành lab đi một vòng các lệnh cơ bản trong WSL |
 | 2026-07-14 | Quyền truy cập trong Linux | Viết lại ghi chú thô thành bài đầy đủ về user, group, `/etc/passwd`, `/etc/shadow`, `/etc/group`, chmod, chown, chgrp, umask, ACL và lab | Làm lab tạo user/group demo và debug `Permission denied` |
+| 2026-07-14 | Lab deploy không Docker | Tạo 2 lab: deploy frontend Next.js và backend NestJS trực tiếp trên Linux bằng user riêng, thư mục riêng, systemd và Nginx | Thực hành trên WSL/server demo, ghi lỗi gặp phải và cách rollback |
+| 2026-07-14 | Nginx cơ bản | Tạo bài học về Nginx, reverse proxy, server block, location, proxy_pass, log, lỗi 502/404/403 và lab proxy app local | Làm lab Nginx reverse proxy trước khi quay lại lab deploy Next/Nest |
+| 2026-07-14 | Networking cơ bản | Tạo bộ bài request flow, IP/port/subnet/NAT, DNS, HTTP/HTTPS/TLS, proxy/load balancer, công cụ debug và lab tổng hợp request flow | Làm lab tổng hợp, viết `report.md`, sau đó quay lại lab deploy Next/Nest |
 
 ## Kỹ năng cần chứng minh
 
 - [ ] Giải thích được DevOps lifecycle.
 - [ ] Debug được service Linux cơ bản.
 - [ ] Viết được Bash script nhỏ.
-- [ ] Phân tích được request HTTP qua DNS, TCP, TLS.
+- [x] Phân tích được request HTTP qua DNS, TCP, TLS.
 - [ ] Tạo Dockerfile tốt cho một app.
 - [ ] Thiết kế CI pipeline có test và artifact.
 - [ ] Viết Terraform module nhỏ.

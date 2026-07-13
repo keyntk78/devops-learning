@@ -18,7 +18,16 @@ nav:
       - Hệ thống file trong Linux: 02-linux-shell/he-thong-file-linux.md
       - Các lệnh cơ bản trong Linux: 02-linux-shell/cac-lenh-co-ban.md
       - Quyền truy cập trong Linux: 02-linux-shell/quyen-truy-cap-trong-linux.md
-  - Networking: 03-networking/index.md
+  - Networking:
+      - Tổng quan: 03-networking/index.md
+      - Request flow tổng quan: 03-networking/request-flow-tong-quan.md
+      - IP, port, subnet và NAT: 03-networking/ip-port-subnet-nat.md
+      - DNS cơ bản: 03-networking/dns-co-ban.md
+      - HTTP, HTTPS và TLS: 03-networking/http-https-tls.md
+      - Proxy và Load Balancer: 03-networking/proxy-load-balancer.md
+      - Nginx cơ bản: 03-networking/nginx-co-ban.md
+      - Công cụ debug networking: 03-networking/cong-cu-debug-networking.md
+      - Lab tổng hợp debug request flow: 03-networking/lab-debug-request-flow.md
   - Git Collaboration: 04-git-collaboration/index.md
   - Containers: 05-containers/index.md
   - CI/CD: 06-ci-cd/index.md
@@ -28,7 +37,10 @@ nav:
   - Observability: 10-observability/index.md
   - Security: 11-security/index.md
   - SRE và Operations: 12-sre-operations/index.md
-  - Projects: 13-projects/index.md
+  - Projects:
+      - Tổng quan: 13-projects/index.md
+      - Deploy backend NestJS không Docker: 13-projects/1. lab-deploy-nestjs-khong-docker.md
+      - Deploy frontend Next.js không Docker: 13-projects/2. lab-deploy-nextjs-khong-docker.md
   - Cheatsheets:
       - Command Index: cheatsheets/command-index.md
   - References:

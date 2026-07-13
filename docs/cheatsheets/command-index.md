@@ -42,8 +42,18 @@ setfacl -m u:devdemo:rw file
 
 ```bash
 curl -I https://example.com
+curl -i https://example.com
+curl -vI https://example.com
 nslookup example.com
+dig example.com A
+dig example.com NS
 ping example.com
+traceroute example.com
+ip addr
+ip route
+sudo ss -lntp
+nc -vz example.com 443
+openssl s_client -connect example.com:443 -servername example.com
 ```
 
 PowerShell:
@@ -51,6 +61,20 @@ PowerShell:
 ```powershell
 Test-NetConnection example.com -Port 443
 Resolve-DnsName example.com
+Invoke-WebRequest https://example.com -Method Head
+```
+
+## Nginx
+
+```bash
+nginx -v
+sudo nginx -t
+sudo systemctl status nginx
+sudo systemctl reload nginx
+sudo journalctl -u nginx -f
+sudo tail -f /var/log/nginx/access.log
+sudo tail -f /var/log/nginx/error.log
+sudo ln -sfn /etc/nginx/sites-available/app /etc/nginx/sites-enabled/app
 ```
 
 ## Docker

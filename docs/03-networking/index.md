@@ -16,6 +16,17 @@
 - Proxy, reverse proxy, load balancing
 - Debug tools: `ping`, `tracert`, `nslookup`, `curl`, `netstat`, `Test-NetConnection`
 
+## Bài học
+
+- [Request flow tổng quan](request-flow-tong-quan.md)
+- [IP, port, subnet và NAT](ip-port-subnet-nat.md)
+- [DNS cơ bản](dns-co-ban.md)
+- [HTTP, HTTPS và TLS](http-https-tls.md)
+- [Proxy, reverse proxy và load balancer](proxy-load-balancer.md)
+- [Nginx cơ bản](nginx-co-ban.md)
+- [Công cụ debug networking](cong-cu-debug-networking.md)
+- [Lab tổng hợp debug request flow](lab-debug-request-flow.md)
+
 ## Lab gợi ý
 
 Chọn một website bất kỳ và ghi lại:
@@ -31,4 +42,3 @@ Chọn một website bất kỳ và ghi lại:
 - Load balancer khác reverse proxy thế nào?
 - Vì sao service cần health check?
 - HTTP `502`, `503`, `504` thường gợi ý lỗi gì?
-

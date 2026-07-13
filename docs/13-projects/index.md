@@ -5,6 +5,11 @@
 - Ghép toàn bộ kiến thức thành dự án có thể đưa vào portfolio.
 - Chứng minh được năng lực build, deploy, observe và operate.
 
+## Labs triển khai không Docker
+
+- [Deploy frontend Next.js không Docker](2.%20lab-deploy-nextjs-khong-docker.md)
+- [Deploy backend NestJS không Docker](1.%20lab-deploy-nestjs-khong-docker.md)
+
 ## Project 1: Dockerized App
 
 Yêu cầu:
@@ -51,4 +56,3 @@ Yêu cầu:
 - [ ] Có script hoặc IaC tái tạo môi trường.
 - [ ] Có tài liệu vận hành.
 - [ ] Có ghi chú các trade-off kỹ thuật.
-
