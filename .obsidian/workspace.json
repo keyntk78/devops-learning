@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "8d54c8f6b92cb5a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "db4c18450b0917eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8becb9605ce0a74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/01-nen-tang/tu-duy-trien-khai-moi-du-an.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tu-duy-trien-khai-moi-du-an"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f936a4f3a2a8e573",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6f9d1c758ba1eed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f0db7640f84cc9f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b007c4cb14da8cda",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3032deadc4d0eda2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2ef69b8fbadc0592",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e194b28d200736d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45fe562e6ef3b712",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/01-nen-tang/tu-duy-trien-khai-moi-du-an.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for tu-duy-trien-khai-moi-du-an"
+            }
+          },
+          {
+            "id": "3f4743894bc9ab60",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/01-nen-tang/tu-duy-trien-khai-moi-du-an.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from tu-duy-trien-khai-moi-du-an"
+            }
+          },
+          {
+            "id": "8569b6ba7a245dab",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a2487babb00ea289",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c16d3ffc666db1dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/01-nen-tang/tu-duy-trien-khai-moi-du-an.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of tu-duy-trien-khai-moi-du-an"
+            }
+          },
+          {
+            "id": "8fcdfe825d7d0044",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "8fcdfe825d7d0044",
+  "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-07-14 00.24.13.excalidraw.md",
+    "docs/01-nen-tang/tu-duy-trien-khai-moi-du-an.md",
+    "Excalidraw/Drawing 2026-07-14 00.24.04.excalidraw.md",
+    "Excalidraw",
+    "docs/01-nen-tang/tu-duy-trien-khai.md",
+    "docs/02-linux-shell/Tư duy triển khai mọi dự án.md",
+    "docs/agent/review-prompts.md",
+    "docs/agent/context.md",
+    "docs/agent/backlog.md",
+    "README.md",
+    "AGENTS.md",
+    "docs/index.md",
+    "docs/02-linux-shell/quyen-truy-cap-trong-linux.md",
+    "Untitled.md",
+    "source",
+    "docs/03-networking/index.md",
+    "docs/02-linux-shell/cac-lenh-co-ban.md",
+    "docs/02-linux-shell/các lệnh linux.md",
+    "docs/02-linux-shell/he-thong-file-linux.md",
+    "docs/02-linux-shell/Hệ thống file trong linux.md",
+    "docs/02-linux-shell/he-thong-file-va-lenh-co-ban.md",
+    "docs/02-linux-shell/index.md",
+    "docs/02-linux-shell/wsl-linux-server.md",
+    "docs/02-linux-shell/Tạo 1 server linux trên WLS để thực hành.md",
+    "docs/01-nen-tang/devops-la-gi.md",
+    "docs/12-sre-operations/index.md",
+    "docs/00-khoi-dong/roadmap.md",
+    "docs/00-khoi-dong/progress.md",
+    "docs/01-nen-tang/raw",
+    "requirements.txt",
+    "mkdocs.yml"
+  ]
+}

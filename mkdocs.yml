@@ -1,0 +1,50 @@
+site_name: DevOps Wiki
+site_description: Wiki ghi chép và thực hành khóa học DevOps
+docs_dir: docs
+nav:
+  - Trang chủ: index.md
+  - Khởi động:
+      - Lộ trình: 00-khoi-dong/roadmap.md
+      - Cách học: 00-khoi-dong/how-to-study.md
+      - Tiến độ: 00-khoi-dong/progress.md
+  - Nền tảng:
+      - Tổng quan: 01-nen-tang/index.md
+      - DevOps là gì?: 01-nen-tang/devops-la-gi.md
+      - Tư duy triển khai: 01-nen-tang/tu-duy-trien-khai.md
+      - Tư duy triển khai mọi dự án: 01-nen-tang/tu-duy-trien-khai-moi-du-an.md
+  - Linux và Shell:
+      - Tổng quan: 02-linux-shell/index.md
+      - Tạo Linux server bằng WSL: 02-linux-shell/wsl-linux-server.md
+      - Hệ thống file trong Linux: 02-linux-shell/he-thong-file-linux.md
+      - Các lệnh cơ bản trong Linux: 02-linux-shell/cac-lenh-co-ban.md
+      - Quyền truy cập trong Linux: 02-linux-shell/quyen-truy-cap-trong-linux.md
+  - Networking: 03-networking/index.md
+  - Git Collaboration: 04-git-collaboration/index.md
+  - Containers: 05-containers/index.md
+  - CI/CD: 06-ci-cd/index.md
+  - Cloud: 07-cloud/index.md
+  - IaC và Configuration: 08-iac-configuration/index.md
+  - Kubernetes: 09-kubernetes/index.md
+  - Observability: 10-observability/index.md
+  - Security: 11-security/index.md
+  - SRE và Operations: 12-sre-operations/index.md
+  - Projects: 13-projects/index.md
+  - Cheatsheets:
+      - Command Index: cheatsheets/command-index.md
+  - References:
+      - Glossary: references/glossary.md
+      - Resource Map: references/resource-map.md
+  - Agent:
+      - Context: agent/context.md
+      - Backlog: agent/backlog.md
+      - Review Prompts: agent/review-prompts.md
+  - Templates:
+      - Note: templates/note.md
+      - Lab: templates/lab.md
+      - Incident Postmortem: templates/incident-postmortem.md
+theme:
+  name: readthedocs
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
